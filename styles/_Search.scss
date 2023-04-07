@@ -1,0 +1,223 @@
+
+
+.search-area{
+  position: relative;
+  top: 30px;
+  left: 15px;
+  width: 1000px;
+  }
+
+ 
+  .section{
+    position: relative;
+    bottom: 140px;
+  }
+  
+  #sel1{
+    position: relative;
+    top: -39px;
+    left: 1014px;
+    width: 150px;
+    height: 26px;
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+  #fa1{
+    position: relative;
+    left: 1169px;
+    bottom: 18px;
+    font-size: 17px;
+    color: black;
+
+  }
+  #fa2{
+    position: relative;
+    left: 1128px;
+    bottom: 18px;
+    font-size: 17px;
+    color: black;
+
+  }
+  #sp1{
+    position: relative;
+    bottom: -27px;
+    left: 15px;
+}
+
+  #sp2{
+    position: relative;
+    left: 7px;
+    top: 200px;
+    width: 193px;
+    color: white;
+    font-weight: 100;
+  }
+
+  #sp22{
+    position: relative;
+    left: 531px;
+    top: 600px;
+    width: 193px;
+    color: white;
+    font-weight: 100;
+  }
+
+  .paganation{
+    position: relative;
+    top: 880px;
+  }
+
+   #sp3.user-name{
+    position: relative;
+    display: inline-block;
+    right: -45px;
+    bottom: -14px;
+}
+
+#sp32.user-name {
+  position: relative;
+  display: inline-block;
+  right: -54px;
+  bottom: 20px;
+
+}
+
+   #sp4{
+    position: relative;
+    right: -54px;
+    bottom: -18px;
+   }
+
+   #sp42 {
+    position: relative;
+    right: -77px;
+    bottom: 17px;
+}
+
+   #sp5{
+     position: relative;
+    left: 40px;
+     bottom: -49px;
+   }
+  
+  #sp6.bottom-price{
+    position: relative;
+    left: 77px;
+    font-size: 14px;
+    bottom: 13px;
+     }
+
+     #sp62.bottom-price{
+      position: relative;
+      left: 56px;
+      font-size: 12px;
+      bottom: 131px;
+       }
+
+   #sp7.local{
+    position: absolute;
+    left: 70px;
+    font-size: 12px;
+    bottom: 33px;
+   }
+
+#sp72.local{
+  position: relative;
+  left: -69px;
+  bottom: 144px;
+}
+
+   #sp8.local2{
+    position: relative;
+    left: -27px;
+    font-size: 14px;
+    bottom: 30px;
+   }
+
+   #fa4{
+    position: relative;
+    left: -5px;
+    bottom: -41px;
+   }  
+
+   #fa42{
+    position: relative;
+    left: 103px;
+    bottom: 17px;
+   }  
+
+   #fa5{
+    position: relative;
+    bottom: -49px;
+    left: 79px;
+      }
+
+      #fa52{
+        position: relative;
+    bottom: 32px;
+    left: 308px;
+      }
+
+   #fa6{
+    position: absolute;
+    left: 55px;
+    bottom: 32px;
+
+   }
+    
+   #fa62{
+    position: relative;
+    left: -86px;
+    bottom: 158px;
+}
+    .Pag-Con{
+      background: white;
+    }
+    
+       .paganation ul{
+        overflow: hidden;
+        position: relative;
+        left: 500px;
+        bottom: 300px;
+        width: 694px;
+        text-align: center;
+        padding: 15px 15px;
+        display: inline-block;
+        display: grid;
+        grid-area: pagination;
+        grid-template-areas: "pagination pagination pagintion pagintion pagintion pagintion pagintion";
+            -webkit-box-shadow: 10px 10px 36px 0px rgba(247,0,247,0.5);
+            -moz-box-shadow: 10px 10px 36px 0px rgba(247,0,247,0.5);
+            box-shadow: 10px 10px 36px 0px rgba(247,0,247,0.5);  
+         
+      }
+ 
+      .paganation ul:hover{
+        transition: all .9s ease;
+       color: purple;
+      cursor: pointer;
+     background-color: #ffddee;
+   
+ 
+ }
+
+ #footage{
+   position: relative;
+   color: white;
+   font-size: 30px;
+ }
+ 
+ .search-name{
+  height: 26px;
+  width: 1000px;
+  position: relative;
+  top: 9px;
+
+ }
+ 
+ 
+ 
+ 
+ 
+         
+     

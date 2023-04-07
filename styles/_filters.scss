@@ -1,0 +1,157 @@
+#content-area{
+    min-height: 100vh;
+    overflow: hidden;
+   }
+  .filter{
+    background: #ffddee;
+    float: left;
+    position: relative;
+    top: -50px;
+  }
+  h4{
+      font-size: 14px;
+      color: #020202;
+      font-weight: 200;
+  }
+  
+  
+
+      .filters{
+          width: 100%;
+          background: transparent;
+          padding: 10px;
+          font-size: 14px;
+          font-weight: 200px;
+          color: #1b1b1b;
+          display: block;
+          margin-bottom: 25px;
+       }
+ 
+       .neighborhood{
+        width: 97%;
+        position: relative;
+        left: 3px;
+    
+       }
+
+       .hometype{
+        width: 97%;
+        position: relative;
+        left: 3px;
+    
+       }
+
+       .bedrooms{
+        width: 97%;
+        position: relative;
+        left: 4px;
+    
+       }
+       
+        
+           .Title {
+            position: relative;
+            right: -4px;
+            font-size: 0.9rem;
+            display: block;
+            color: #ADABAA;
+            margin-top: 3rem;
+ }
+
+ .Title2 {
+    position: relative;
+    right: 3px;
+    font-size: 0.9rem;
+    display: block;
+    color: #ADABAA;
+    margin-top: 3rem;
+}
+
+        .Title1 {
+            position: relative;
+            right: 4px;
+            color: #ADABAA;
+
+        } 
+ 
+ #ele{
+    position: relative;
+    left: 6px;
+      margin-top: 3px;
+      color: #ADABAA;
+ }
+
+ #ele2{
+    position: relative;
+    left: 6px;
+ }
+
+ #ele3{
+    position: relative;
+    left: 6px;
+ }
+
+ h4{
+    color: #ADABAA;
+ }
+ #one{
+     position: relative;
+     left: 266px;
+     top: -8px;
+ } 
+ #two{
+    position: relative;
+    left:  231px;
+    bottom: 7px;
+}
+#three{
+    position: relative;
+   left:  210px;
+   bottom: 3px;
+}
+#floor{
+    position: relative;
+    left: 293px;
+    bottom: 0px;
+}
+
+  
+   select.filters.bedrooms{
+       margin-left: -1px;
+   }
+  
+
+      label{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        position: relative;
+        right: 4px;
+        margin-top: 5px;
+      
+  }
+  #tri{
+    position: relative;
+    right: 4px;
+    width: 165px;
+    margin: none;
+  }
+  #by {
+    position: relative;
+    right: 0px;
+    width: 165px;
+  }
+  #square{
+    position: relative;
+    right: 4px;
+        width: 165px;
+  }
+  #circle{
+    position: relative;
+    right: 0px;
+    width: 165px;
+  }
+    .Gym{
+
+      }
+  

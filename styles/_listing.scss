@@ -1,0 +1,173 @@
+  .section{
+    position: relative;
+    bottom: 140px;
+    overflow: hidden;
+  }
+
+  #listing{
+    float: left;
+  }
+
+  .listing-results{
+    position: relative;
+    top: -60px;
+    margin: 10px;
+    height: 150px;
+    width: 170px;
+    -webkit-box-shadow: 5px 5px 23px 0px #919191; 
+     box-shadow: 5px 5px 23px 0px #919191;
+    background: #fff;
+    min-height: 240px;
+   -webkit-box-shadow: 10px 10px 15px 0px rgba(245,223,233,1);
+   -moz-box-shadow: 10px 10px 15px 0px rgba(245,223,233,1);
+    box-shadow: 10px 10px 15px 0px rgba(245,223,233,1);
+    border-radius: 5px;
+    // background: url("https://www.idesignarch.com/wp-content/uploads/Contemporary-Luxury-Home-Curved-Facade-Brazil_1.jpg") no-repeat  center center ; 
+    -webkit-background-size:   cover;
+   -moz-background-size: cover;
+   -o-background-size:   cover;
+   background-size:  cover;
+   background-position: cover;
+  }
+  
+  .listing-results2{
+    position: relative;
+    top: 620px;
+    left: 315px;
+    /* margin: 10px; */
+    height: 81px;
+    width: 380px;
+    box-shadow: 5px 5px 23px 0px #919191;
+    background: #fff;
+    /* min-height: 240px; */
+    box-shadow: 10px 10px 15px 0px rgb(245 223 233);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: cover;
+  }
+
+  .listing-grid{
+    display: grid; 
+    /* grid-template-columns: auto; */
+    /* grid-gap: 5px; */
+    float: right;
+    /* display: inline-block; */
+    position: relative;
+    bottom: 670px;
+  }
+
+  .user-details{
+     position: absolute;
+     top: 0px;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     opacity: 0;
+     width: 170px;
+  background: rgba(255,93,177, 0.8); /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  rgba(255,93,177,0.8) 0%, rgba(252,171,221,0.8) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  rgba(255,93,177,0.8) 0%,rgba(252,171,221,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  rgba(255,93,177,0.8) 0%,rgba(252,171,221,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   }
+
+   .user-details2{
+    position: absolute;
+    top: 620px;
+    bottom: 0;
+    left: 315px;
+    right: 0;
+    opacity: 0;
+    height: 81px;
+    width: 380px;
+    background: rgba(255, 93, 177, 0.8);
+    background: linear-gradient(135deg, rgba(255, 93, 177, 0.8) 0%, rgba(252, 171, 221, 0.8) 100%);
+   }
+
+    .user-details2:hover{
+    opacity: 1;
+    transition: all .9s ease;
+    cursor: pointer;
+  }
+
+  .user-details:hover{
+    opacity: 1;
+    transition: all .9s ease;
+    cursor: pointer;
+  }
+ 
+
+
+   .bottom-info{
+    position: relative;
+    top: 93px;
+    left: -9px;
+   }
+ 
+   .user-img{
+     z-index: 1;
+    position: relative;
+    bottom: -9px;
+    left: 10px;
+   background: url("Imgs/pop.jpg") no-repeat  center center ; 
+      -webkit-background-size:   cover;
+      -moz-background-size: cover;
+      -o-background-size:   cover;
+      background-size:  cover;
+      background-position: cover;
+      //  display: inline-block;
+      border-radius: 50%;
+       border: 2px solid  white;
+       width: 40px;
+       height: 40px;
+      
+     }
+  
+ 
+    
+    
+  
+     .view-btn{
+      position: relative;
+      color: hotpink;
+      background: #0C002B;
+      width: 35%;
+      padding: 9px;
+      border-radius: 4px;
+      font-size: 12px;
+      text-align: center;
+      bottom: -53px;
+      left: 65px;
+      }
+      .view-btn:hover{
+        overflow: none;
+        cursor: pointer;
+           transition: background .4s ease-in-out;
+           background: white;
+       }
+
+       .view-btn2{
+        position: relative;
+        color: hotpink;
+        background: #0C002B;
+        width: 35%;
+        padding: 9px;
+        border-radius: 4px;
+        font-size: 12px;
+        text-align: center;
+        bottom: 27px;
+        left: 129px;
+      }
+      .view-btn2:hover{
+        overflow: none;
+        cursor: pointer;
+           transition: background .4s ease-in-out;
+           background: white;
+       }
+    
+ #footage{
+   position: relative;
+   color: white;
+   font-size: 30px;
+ }
+ 
+ 

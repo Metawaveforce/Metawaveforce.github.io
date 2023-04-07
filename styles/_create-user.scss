@@ -1,0 +1,165 @@
+.create-user{
+    height: 100vh;
+   
+}
+.base{
+    background-color: rgba( 26, 39,103);
+    background: linear-gradient(312deg, rgba(26, 39, 103, 1) 0%, rgba(48, 20, 94, 1) 45%, rgba(0, 0, 0, 1) 100%);
+    width: 1400px;
+
+}
+    .__top{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    .login-logo{
+        position: relative;
+        bottom: 639px;
+        left: 500px;
+        font-size: 40px;
+         font-weight: 100;
+         background-repeat: no-repeat;
+         background-size: 100%;
+        height: 122px;
+        width: 329px;
+         background-image: url("Imgs/592-5926509_jumpcrew-client-zillow-zillow-app-hd-png-download.png");
+        transform: scale(.9);
+        margin-bottom: 1rem;
+    }
+    span.title{
+        position: relative;
+        left: 530px;
+        bottom: 600px;
+        color: white;
+        font-size: 2rem;
+        font-weight: 300
+    }
+    .create-user__cancel{
+         position: relative;
+         bottom: 450px;
+         left: 340px;
+         background: rgba(255, 255, 255, .2);
+         border-radius: 20px;
+         height: 35px;
+         width: 150px;
+         text-transform: uppercase;
+         font-size: .9rem;
+         color: white;
+         font-weight: 700;
+         text-align: center;
+         
+     }
+    .create-user__save{
+         position: relative;
+         bottom: 450px;
+         left: 210px;
+         background: rgba(255, 255, 255, .2);
+         border-radius: 20px;
+         height: 35px;
+         width: 150px;
+         text-transform: uppercase;
+         font-size: .9rem;
+         color: white;
+         font-weight: 700;
+         text-align: center;
+        
+         
+     
+         
+     }
+    .create-user__user-img{
+        position: relative;
+       
+        height: 22px;
+        width: 33px;
+    }
+
+
+.create-user__user-name{
+    position: relative;
+    left: 630px;
+    bottom: 400px;
+    font-size: 30px;
+    color: white;
+}
+.__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.__user-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+:nth-child(1) {
+margin-right: 3rem;
+}
+img.create-user_user-img{
+    position: relative;
+    bottom: 543px;
+    left: 610px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid rgb(132, 0, 255);
+    object-fit: cover;
+    object-position: center;
+}
+.create-user__name{
+    position: relative;
+ }
+ .create-user__inputText{
+     position: relative;
+     bottom: 560px;
+     left: 535px;
+     border: non;
+     border-bottom: 1px solid rgb(132, 0, 255);
+     background: transparent;
+     width: 300px;
+     padding: 10px 0;
+     margin-bottom: 2 rem;
+     outline: none;
+     color: white;
+     font-size: 1.5rem;
+ }
+ .__input-group{
+     display: flex;
+     flex-direction: center;
+     justify-content: center;
+ }
+label{
+    position: relative;
+    color: black;
+    font-size: .8rem;
+}
+.create-user__color{
+    display: flex;
+    justify-content: space-between;
+    }
+.create-user__color{
+    float: left;
+    margin: 10px;
+    position: relative;
+    bottom: 540px;
+    left: 570px;
+   border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    transform: translate .4s ease-in-out;
+    }
+    .create-user__color:hover{
+        transform: scale(1.5);
+    }
+.--active{
+    border: 2px solid white;
+   
+}
